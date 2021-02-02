@@ -363,7 +363,7 @@ def potracelib_version():
     """
     Return the potrace library version.
     """
-    return cpython.bytes.PyBytes_FromString(potrace_version()).decode()
+    return cpython.bytes.PyBytes_FromString("0.3").decode()
 
 
 # Utility functions

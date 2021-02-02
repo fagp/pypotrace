@@ -122,7 +122,7 @@ cdef str page_svg(potrace_path_s *plist, potrace_bitmap_s *bm):
     result += " width=\"%fpt\" height=\"%fpt\" viewBox=\"0 0 %f %f\"\n" % (bboxx, bboxy, bboxx, bboxy)
     result += " preserveAspectRatio=\"xMidYMid meet\">\n"
     result += "<metadata>\n"
-    result += "Created by potrace " + cpython.bytes.PyBytes_FromString(potrace_version()).decode() +", written by Peter Selinger 2001-2015\n"
+    result += "Created by potrace " + cpython.bytes.PyBytes_FromString("0.3").decode() +", written by Peter Selinger 2001-2015\n"
     result += "</metadata>\n"
     result += "<g transform=\""
 
