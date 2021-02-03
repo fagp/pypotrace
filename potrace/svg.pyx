@@ -2,7 +2,7 @@ from potrace._potrace cimport *
 cimport cpython.bytes
 
 import math
-from idlelib.paragraph import reformat_paragraph
+from format import reformat_paragraph
 
 unit = 10
 column_count = 75
